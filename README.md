@@ -13,7 +13,7 @@ flow. The findings establish a computational framework to improve the understand
 and optimization of treatment.
 
 CODES
-- lb_2D_fluid_with_clot.py : Runs an LB simulation in 2D geometry with a clot and converges the fluid. The output data is the fluid values.
+- lb_2D_fluid_with_clot.py : Runs an LB simulation in 2D geometry with a clot and converges the fluid which is then saved in a sperate file.
 - lb_2D_thrombolysis : Lysis of the clot by tPA. Must be run after lb_2D_fluid_with_clot.py to use an already converged fluid.
 - functionsLB2.py : Contains all functions necessary to execute the simulation.
 - functionsMonitoring2.py : Contains functions to monitor the progress and values of the simulation.
