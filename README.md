@@ -2,6 +2,7 @@
 Lattice-Boltzmann simulation of thrombolysis in 2D blood circuits
 
 ABSTRACT
+
 This study explores the use of the Lattice-Boltzmann (LB) method to simulate the dissolution of
 blood clots in a vascular system. Blood clots, critical for healing, can cause severe medical conditions
 when formed inappropriately, necessitating effective thrombolysis treatments. The study employs LB
