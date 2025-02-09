@@ -18,7 +18,7 @@ class Lattice:
     maxIter = 100000                # Max iterations (dt =1)            
     nx, ny = 260, 200               # Number of lattice nodes (dx = 1)
     tubeSize = 21                   # Diameters of the tubes in the system
-    branch = False                  # Determins if the system is a loop or with a colateral branch
+    branch = False                  # Determines if the system is a loop or with a colateral branch
     branchSize = 21                 # Sets the width of the colateral branch
 
 # Fluid definition
