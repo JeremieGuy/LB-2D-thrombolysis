@@ -97,7 +97,7 @@ fin = equilibrium(rho, vel, Lattice, D2Q9)
 fout = equilibrium(rho, vel, Lattice, D2Q9)
 
 # Loading already converged variables for faster execution time
-if loadData: fin, fout, _, u = getVariables(GeometryType, Lattice, Fluid, Clot, 65000)
+if loadData: fin, fout, _, u = getVariables(GeometryType, Lattice, Fluid, Clot, 100000)
 
 ################################# Main time loop ######################################
 
