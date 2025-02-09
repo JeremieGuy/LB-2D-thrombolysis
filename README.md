@@ -7,6 +7,6 @@ This study explores the use of the Lattice-Boltzmann (LB) method to simulate the
 
 CODES
 - lb_2D_fluid_with_clot.py : Runs an LB simulation in 2D geometry with a clot and converges the fluid which is then saved in a sperate file.
-- lb_2D_thrombolysis : Lysis of the clot by tPA. Must be run after lb_2D_fluid_with_clot.py to use an already converged fluid.
+- lb_2D_thrombolysis : Lysis of the clot by tPA. Must be run after lb_2D_fluid_with_clot.py to load and use an already converged fluid.
 - functionsLB2.py : Contains all functions necessary to execute the simulation.
 - functionsMonitoring2.py : Contains functions to monitor the progress and values of the simulation.
