@@ -15,7 +15,7 @@ saveData = False
 
 # Lattice goemetry definition
 class Lattice:
-    maxIter = 100              # Max iterations (dt =1)            
+    maxIter = 100000                # Max iterations (dt =1)            
     nx, ny = 260, 200               # Number of lattice nodes (dx = 1)
     tubeSize = 21                   # Diameters of the tubes in the system
     branch = False                  # Determins if the system is a loop or with a colateral branch
@@ -38,7 +38,7 @@ class Clot:
 # tPA definition
 class TPA:
     rho_initial = 1                 # tPA added concentration
-    r = 0.8                           # tPA reaction proportion
+    r = 0.8                         # tPA reaction proportion
 
 ########################## Lattice Constants ###########################################
 
