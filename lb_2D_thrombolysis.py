@@ -196,7 +196,8 @@ for execTime in range(Lattice.maxIter):
 
     # liberate remaining binded tPA for empty sites
     tPABind = liberateTPA(tPABind, KMask)
-    
+
+    # Saving clot front coordinate evolution
     if(execTime%50==0):
         frontIndex = getFrontIndex(K, Clot, clotMask)
         clotFront.append(frontIndex)
