@@ -15,7 +15,7 @@ saveData = True
 
 # Lattice goemetry definition
 class Lattice:
-    maxIter = 1000                # Max iterations (dt =1)            
+    maxIter = 100000                # Max iterations (dt =1)            
     nx, ny = 260, 200               # Number of lattice nodes (dx = 1)
     tubeSize = 21                   # Diameters of the tubes in the system
     branch = False                  # Determines if the system is a loop or with a colateral branch
