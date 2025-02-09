@@ -117,7 +117,7 @@ rho = full((Lattice.nx, Lattice.ny), Fluid.rho_initial)
 fin = equilibrium(rho, vel, Lattice, D2Q9)
 fout = equilibrium(rho, vel, Lattice, D2Q9)
 
-# Loading already converged variables for faster execution time
+# Loading already converged fluid (necessary for tPA injection)
 if loadData: fin, fout, _, u = getVariables(GeometryType, Lattice, Fluid, Clot, 100000)
 
 # tPA density initialization
