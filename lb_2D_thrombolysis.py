@@ -25,7 +25,7 @@ class Lattice:
 class Fluid:
     viscosity = 0.01                # Kinematic viscosity
     omega = 1 / (3*viscosity+0.5);  # Relaxation parameter
-    rho_initial = 2.5               # Inital density of the system
+    rho_initial = 2.5               # Inital density of the fluid
     F_initial = [0,-0.0001]         # Accelerating force F[nx,ny]
     
 # Clot definition
@@ -37,7 +37,7 @@ class Clot:
 
 # tPA definition
 class TPA:
-    rho_initial = 1                 # tPA added concentration
+    rho_initial = 1                 # tPA concentration
     r = 0.8                         # tPA reaction proportion
 
 ########################## Lattice Constants ###########################################
